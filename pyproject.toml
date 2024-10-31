@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "disentangled-representation-learning"
+name = "vae-playground"
 version = "0.1.0"
 description = ""
 authors = ["Pavan Kantharaju <pavank92@gmail.com>"]
@@ -10,7 +10,6 @@ python = "^3.10"
 numpy = "^1.26.3"
 pandas = "^2.2.0"
 wandb = "^0.16.2"
-torch = "^2.1.2"
 jupyterlab = "^4.0.11"
 scikit-learn = "^1.4.0"
 transformers = "^4.37.2"
@@ -20,10 +19,12 @@ ipywidgets = "^8.1.1"
 matplotlib = "^3.8.2"
 seaborn = "^0.13.2"
 scikit-learn-extra = "^0.3.0"
-torchvision = "^0.16.2"
 accelerate = "^0.26.1"
 tqdm = "^4.66.1"
 h5py = "^3.12.1"
+torch = "^2.5.1"
+torchvision = "^0.20.1"
+diffusers = "^0.31.0"
 
 
 [build-system]
